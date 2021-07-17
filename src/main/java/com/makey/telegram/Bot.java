@@ -1,6 +1,9 @@
 package com.makey.telegram;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -10,18 +13,27 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 @Component
 public class Bot extends TelegramLongPollingBot {
 
+    private static final Logger LOGGER= LoggerFactory.getLogger(Bot.class);
+
+    @Value("${bot.name}")
+    private String botUsername;
+
+    @Value("${bot.token}")
+    private String botToken;
+
     @Override
     public String getBotUsername() {
-        return "MakeyBot";
+        return botUsername;
     }
     @Override
     public String getBotToken() {
-        return "1649497702:AAEgKVYqKpx9fpGBEUzU2uFExwQEdc9wTlM";
+        return botToken;
     }
 
     @Override
     public void onUpdateReceived(Update update) {
         if (update.hasMessage()&& update.getMessage().hasText()) {
+            LOGGER.info("UPDATE RECEIVED id=" + update.getUpdateId());
             var message = SendMessage.builder()
                     .chatId(String.valueOf(update.getMessage().getChatId()))
                     .text(update.getMessage().getText())
@@ -30,7 +42,7 @@ public class Bot extends TelegramLongPollingBot {
                 execute(message);
             }
             catch (TelegramApiException e) {
-                e.printStackTrace();
+                LOGGER.error("Ошибка отправки сообщения ",e);
             }
         }
     }
