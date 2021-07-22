@@ -1,0 +1,395 @@
+2021-07-23 00:04:19 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 00:04:19 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-23 00:04:19 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-23 00:04:37 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 4716 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-23 00:04:37 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-23 00:04:37 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-23 00:04:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-23 00:04:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2021-07-23 00:04:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-23 00:04:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-23 00:04:37 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-23 00:04:37 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-23 00:04:37 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-23 00:04:38 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-23 00:04:38 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-23 00:04:38 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 00:04:39 [main] INFO  com.makey.telegram.App - Started App in 2.593 seconds (JVM running for 3.075)
+2021-07-23 00:04:40 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303411
+2021-07-23 00:04:40 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:04:41 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303412
+2021-07-23 00:04:41 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:04:42 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303413
+2021-07-23 00:04:42 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:04:43 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303414
+2021-07-23 00:04:43 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:04:43 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303415
+2021-07-23 00:04:43 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:04:44 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303416
+2021-07-23 00:04:44 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:04:45 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303417
+2021-07-23 00:04:45 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:04:45 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303418
+2021-07-23 00:04:45 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:07:35 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 00:07:35 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-23 00:07:35 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-23 00:09:50 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 4826 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-23 00:09:50 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-23 00:09:50 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-23 00:09:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-23 00:09:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2021-07-23 00:09:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-23 00:09:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-23 00:09:50 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 157
+2021-07-23 00:09:50 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-23 00:09:50 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 157
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 157
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 28 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 157
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 38 common frames omitted
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 157
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:202)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:101)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:63)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 53 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 157
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:311)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:447)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:368)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:309)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:272)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:267)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 60 common frames omitted
+2021-07-23 00:10:03 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 4899 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-23 00:10:03 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-23 00:10:03 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-23 00:10:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-23 00:10:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+2021-07-23 00:10:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-23 00:10:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-23 00:10:04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-23 00:10:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-23 00:10:04 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-23 00:10:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-23 00:10:05 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-23 00:10:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 00:10:06 [main] INFO  com.makey.telegram.App - Started App in 2.519 seconds (JVM running for 3.097)
+2021-07-23 00:10:09 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 00:10:09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-23 00:10:09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-23 00:12:30 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 5001 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-23 00:12:30 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-23 00:12:30 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-23 00:12:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-23 00:12:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2021-07-23 00:12:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-23 00:12:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-23 00:12:31 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
+  Позиция: 349
+2021-07-23 00:12:31 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-23 00:12:31 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
+  Позиция: 349
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
+  Позиция: 349
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 28 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
+  Позиция: 349
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 38 common frames omitted
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
+  Позиция: 349
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:202)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:101)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:63)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 53 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
+  Позиция: 349
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:311)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:447)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:368)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:309)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:272)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:267)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 60 common frames omitted
+2021-07-23 00:13:01 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 5077 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-23 00:13:01 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-23 00:13:01 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-23 00:13:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-23 00:13:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2021-07-23 00:13:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-23 00:13:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-23 00:13:02 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 307
+2021-07-23 00:13:02 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-23 00:13:02 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 307
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 307
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 28 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 307
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 38 common frames omitted
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 307
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:202)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:101)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:63)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 53 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
+  Позиция: 307
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:311)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:447)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:368)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:309)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:272)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:267)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 60 common frames omitted
+2021-07-23 00:13:09 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 5151 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-23 00:13:09 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-23 00:13:09 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-23 00:13:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-23 00:13:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+2021-07-23 00:13:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-23 00:13:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-23 00:13:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-23 00:13:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-23 00:13:09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-23 00:13:10 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-23 00:13:10 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-23 00:13:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 00:13:11 [main] INFO  com.makey.telegram.App - Started App in 2.549 seconds (JVM running for 3.091)
+2021-07-23 00:13:15 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303419
+2021-07-23 00:13:16 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:13:18 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303420
+2021-07-23 00:13:18 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303421
+2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303422
+2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303423
+2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:13:20 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303424
+2021-07-23 00:13:20 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:13:20 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303425
+2021-07-23 00:13:20 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:13:21 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303426
+2021-07-23 00:13:21 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-23 00:13:55 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 00:13:55 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-23 00:13:55 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
