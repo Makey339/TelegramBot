@@ -1,3 +1,6 @@
+--liquibase formatted sql
+
+--changeset makey:createUsers
 CREATE TABLE IF NOT EXISTS "users"
 (
     user_id bigint NOT NULL,
@@ -13,9 +16,7 @@ CREATE TABLE IF NOT EXISTS "users"
 ALTER TABLE public."users"
     OWNER to makey;
 
-
-    CREATE SEQUENCE IF NOT EXISTS HIBERNATE_SEQUENCE START WITH 1 INCREMENT BY 1;
-
+--changeset makey:createMessages
 CREATE TABLE IF NOT EXISTS "messages"
 (
     msg_id bigserial NOT NULL,
@@ -33,11 +34,29 @@ CREATE TABLE IF NOT EXISTS "messages"
 ALTER TABLE "messages"
     OWNER to makey;
 
--- ALTER TABLE "messages"
---     ADD CONSTRAINT messages_users_fk FOREIGN KEY (user_id)
---         REFERENCES public."users" (user_id) MATCH SIMPLE
---         ON UPDATE NO ACTION
---         ON DELETE NO ACTION
---     NOT VALID;
+--changeset makey:createDomain
+CREATE TABLE IF NOT EXISTS public.domain
+(
+    id bigserial NOT NULL,
+    domainname character varying,
+    hotness integer,
+    price integer,
+    x_value integer,
+    yandex_tic integer,
+    links integer,
+    visitors integer,
+    registrar character varying,
+    yearsold integer,
+    delete_date timestamp,
+    rkn boolean,
+    judicial boolean,
+    block boolean,
+    CONSTRAINT domain_pkey PRIMARY KEY (id)
+    )
+
+    TABLESPACE pg_default;
+
+ALTER TABLE public.domain
+    OWNER to makey;
 
 

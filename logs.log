@@ -1,68 +1,280 @@
-2021-07-23 00:04:19 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-07-23 00:04:19 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-07-23 00:04:19 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-07-23 00:04:37 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 4716 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
-2021-07-23 00:04:37 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-07-23 00:04:37 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
-2021-07-23 00:04:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-07-23 00:04:37 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
-2021-07-23 00:04:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-07-23 00:04:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-07-23 00:04:37 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-07-23 00:04:37 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-07-23 00:04:37 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-07-23 00:04:38 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
-2021-07-23 00:04:38 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-07-23 00:04:38 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-07-23 00:04:39 [main] INFO  com.makey.telegram.App - Started App in 2.593 seconds (JVM running for 3.075)
-2021-07-23 00:04:40 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303411
-2021-07-23 00:04:40 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:04:41 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303412
-2021-07-23 00:04:41 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:04:42 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303413
-2021-07-23 00:04:42 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:04:43 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303414
-2021-07-23 00:04:43 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:04:43 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303415
-2021-07-23 00:04:43 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:04:44 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303416
-2021-07-23 00:04:44 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:04:45 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303417
-2021-07-23 00:04:45 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:04:45 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303418
-2021-07-23 00:04:45 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:07:35 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-07-23 00:07:35 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-07-23 00:07:35 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-07-23 00:09:50 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 4826 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
-2021-07-23 00:09:50 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-07-23 00:09:50 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
-2021-07-23 00:09:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-07-23 00:09:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
-2021-07-23 00:09:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-07-23 00:09:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-07-23 00:09:50 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 157
-2021-07-23 00:09:50 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2021-07-26 16:46:45 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 680 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 16:46:45 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 16:46:45 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 16:46:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 16:46:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
+2021-07-26 16:46:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 16:46:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 16:46:45 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 16:46:45 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 16:46:46 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 16:46:46 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 16:46:46 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 16:46:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 16:46:46 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot' defined in file [/home/makey/TelegramBot/target/classes/com/makey/telegram/Bot.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
+2021-07-26 16:46:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 16:46:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 16:46:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 16:46:46 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-07-23 00:09:50 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 157
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+2021-07-26 16:46:46 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot' defined in file [/home/makey/TelegramBot/target/classes/com/makey/telegram/Bot.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:511)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:374)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:374)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 15 common frames omitted
+2021-07-26 16:46:59 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 755 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 16:46:59 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 16:46:59 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 16:47:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 16:47:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2021-07-26 16:47:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 16:47:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 16:47:00 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 16:47:00 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 16:47:00 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 16:47:00 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 16:47:01 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 16:47:01 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 16:47:01 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 16:47:01 [main] INFO  com.makey.telegram.App - Started App in 2.396 seconds (JVM running for 2.904)
+2021-07-26 16:47:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303442
+2021-07-26 16:47:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 16:47:11 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303443
+2021-07-26 16:47:11 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 16:47:12 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303444
+2021-07-26 16:47:12 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 16:47:12 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303445
+2021-07-26 16:47:12 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 16:47:12 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303446
+2021-07-26 16:47:13 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 16:49:04 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 16:49:04 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 16:49:04 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 16:49:04 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 16:49:04 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'entityManagerFactory': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$1.orderedStream(DefaultListableBeanFactory.java:481)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:167)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy82.saveAll(Unknown Source)
+	at com.makey.telegram.services.DomainServiceImpl.saveAll(DomainServiceImpl.java:46)
+	at com.makey.telegram.Bot.DomainHandler(Bot.java:137)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-07-26 16:49:39 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 884 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 16:49:39 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 16:49:39 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 16:49:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 16:49:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2021-07-26 16:49:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 16:49:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 16:49:39 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 16:49:39 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 16:49:40 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 16:49:40 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 16:49:40 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 16:49:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 16:49:40 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 16:49:41 [main] INFO  com.makey.telegram.App - Started App in 2.199 seconds (JVM running for 2.653)
+2021-07-26 16:50:42 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303447
+2021-07-26 16:50:42 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 16:51:40 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 16:51:40 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 16:51:40 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 16:51:40 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 16:51:48 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 1006 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 16:51:48 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 16:51:48 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 16:51:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 16:51:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2021-07-26 16:51:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 16:51:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 16:51:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 16:51:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 16:51:49 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 16:51:49 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 16:51:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 16:51:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 16:51:50 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 16:51:50 [main] INFO  com.makey.telegram.App - Started App in 2.292 seconds (JVM running for 2.713)
+2021-07-26 16:59:13 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 16:59:13 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 16:59:13 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 16:59:13 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 17:06:00 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 1137 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 17:06:00 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 17:06:00 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 17:06:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 17:06:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 3 JPA repository interfaces.
+2021-07-26 17:06:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 17:06:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 17:06:01 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 17:06:01 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 17:06:01 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 17:06:01 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 17:06:01 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 17:06:01 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 17:06:02 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 17:06:02 [main] INFO  com.makey.telegram.App - Started App in 2.373 seconds (JVM running for 2.853)
+2021-07-26 17:08:07 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 17:08:07 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 17:08:07 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 17:08:07 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 17:08:56 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 1252 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 17:08:56 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 17:08:56 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 17:08:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 17:08:57 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2021-07-26 17:08:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 17:08:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 17:08:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 17:08:57 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 17:08:57 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 17:08:57 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 17:08:58 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 17:08:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 17:08:58 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 17:08:58 [main] INFO  com.makey.telegram.App - Started App in 2.287 seconds (JVM running for 2.745)
+2021-07-26 17:09:03 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303448
+2021-07-26 17:09:03 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 17:09:05 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303449
+2021-07-26 17:09:05 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 17:09:06 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303450
+2021-07-26 17:09:06 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 17:24:38 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 17:24:38 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 17:24:38 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 17:24:38 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 17:25:02 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 1397 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 17:25:02 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 17:25:02 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 17:25:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 17:25:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
+2021-07-26 17:25:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 17:25:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 17:25:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 17:25:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 17:25:03 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 17:25:03 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 17:25:03 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 17:25:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 17:25:04 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 17:25:04 [main] INFO  com.makey.telegram.App - Started App in 2.347 seconds (JVM running for 2.908)
+2021-07-26 17:25:10 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303451
+2021-07-26 17:25:10 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 17:40:51 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 17:40:51 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 17:40:51 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 17:40:51 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 21:53:02 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 1714 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 21:53:02 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 21:53:02 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 21:53:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 21:53:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+2021-07-26 21:53:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 21:53:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 21:53:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 21:53:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 21:53:03 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 21:53:03 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 21:53:04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 21:53:04 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 21:53:04 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 21:53:05 [main] INFO  com.makey.telegram.App - Started App in 2.808 seconds (JVM running for 3.357)
+2021-07-26 21:53:08 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 21:53:08 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 21:53:08 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 21:53:08 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:12:45 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2090 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:12:45 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:12:45 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:12:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:12:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:12:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:12:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:12:46 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:12:46 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - Creating database history table with name: public.databasechangelog
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - Custom SQL executed
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - ChangeSet changelog/migrations/initDB.sql::createUsers::makey ran successfully in 24ms
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - Custom SQL executed
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - ChangeSet changelog/migrations/initDB.sql::createMessages::makey ran successfully in 16ms
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - Custom SQL executed
+2021-07-26 22:12:46 [main] INFO  liquibase.changelog - ChangeSet changelog/migrations/initDB.sql::createDomain::makey ran successfully in 18ms
+2021-07-26 22:12:46 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:12:46 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:12:46 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:12:46 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:12:47 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:12:47 [main] WARN  o.h.t.s.i.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL "alter table public.messages drop constraint FKpsmh6clh3csorw43eaodlqvkn" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table public.messages drop constraint FKpsmh6clh3csorw43eaodlqvkn" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:145)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:318)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:468)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
@@ -78,52 +290,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
 	at com.makey.telegram.App.main(App.java:11)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 157
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 28 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 157
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:51)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	... 38 common frames omitted
-Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #3 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 157
-	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
-	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
-	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:202)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:101)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:63)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
-	... 53 common frames omitted
-Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 157
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: ограничение "fkpsmh6clh3csorw43eaodlqvkn" в таблице "messages" не существует
 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:311)
@@ -135,61 +302,51 @@ Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка син�
 	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:267)
 	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
 	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
-	... 60 common frames omitted
-2021-07-23 00:10:03 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 4899 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
-2021-07-23 00:10:03 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-07-23 00:10:03 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
-2021-07-23 00:10:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-07-23 00:10:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
-2021-07-23 00:10:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-07-23 00:10:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-07-23 00:10:04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-07-23 00:10:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-07-23 00:10:04 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-07-23 00:10:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
-2021-07-23 00:10:05 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-07-23 00:10:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-07-23 00:10:06 [main] INFO  com.makey.telegram.App - Started App in 2.519 seconds (JVM running for 3.097)
-2021-07-23 00:10:09 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-07-23 00:10:09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-07-23 00:10:09 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2021-07-23 00:12:30 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 5001 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
-2021-07-23 00:12:30 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-07-23 00:12:30 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
-2021-07-23 00:12:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-07-23 00:12:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
-2021-07-23 00:12:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-07-23 00:12:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-07-23 00:12:31 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
-  Позиция: 349
-2021-07-23 00:12:31 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 35 common frames omitted
+2021-07-26 22:12:47 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:12:47 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:12:48 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 22:12:48 [main] INFO  com.makey.telegram.App - Started App in 3.371 seconds (JVM running for 3.86)
+2021-07-26 22:15:17 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 22:15:17 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:15:17 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:15:17 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:16:22 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2243 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:16:22 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:16:22 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:16:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:16:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:16:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:16:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:16:23 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:16:23 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:16:23 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:16:23 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:16:23 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:16:23 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:16:23 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:16:23 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:16:23 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:16:24 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:16:24 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:16:24 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot' defined in file [/home/makey/TelegramBot/target/classes/com/makey/telegram/Bot.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
+2021-07-26 22:16:24 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:16:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:16:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:16:24 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-07-23 00:12:31 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
-  Позиция: 349
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+2021-07-26 22:16:24 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot' defined in file [/home/makey/TelegramBot/target/classes/com/makey/telegram/Bot.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
@@ -198,101 +355,52 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
 	at com.makey.telegram.App.main(App.java:11)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
-  Позиция: 349
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:511)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:374)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:374)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 15 common frames omitted
+2021-07-26 22:16:48 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2320 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:16:48 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:16:48 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:16:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:16:49 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:16:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:16:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:16:49 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:16:49 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:16:49 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:16:49 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:16:49 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:16:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:16:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:16:50 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:16:50 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:16:50 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:16:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:16:50 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot' defined in file [/home/makey/TelegramBot/target/classes/com/makey/telegram/Bot.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
+2021-07-26 22:16:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:16:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:16:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:16:50 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:16:50 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot' defined in file [/home/makey/TelegramBot/target/classes/com/makey/telegram/Bot.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 28 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
-  Позиция: 349
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:51)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	... 38 common frames omitted
-Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION, ) TABLESPACE pg_default; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
-  Позиция: 349
-	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
-	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
-	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:202)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:101)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:63)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
-	... 53 common frames omitted
-Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса (примерное положение: ")")
-  Позиция: 349
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:311)
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:447)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:368)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:309)
-	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:295)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:272)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:267)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
-	... 60 common frames omitted
-2021-07-23 00:13:01 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 5077 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
-2021-07-23 00:13:01 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-07-23 00:13:01 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
-2021-07-23 00:13:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-07-23 00:13:01 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
-2021-07-23 00:13:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-07-23 00:13:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-07-23 00:13:02 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 307
-2021-07-23 00:13:02 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2021-07-23 00:13:02 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 307
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
@@ -301,95 +409,822 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
 	at com.makey.telegram.App.main(App.java:11)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 307
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:610)
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'DomainHandler': Cron expression must consist of 6 fields (found 5 in "0 12 * * *")
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:511)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:374)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:374)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:373)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	... 15 common frames omitted
+2021-07-26 22:17:03 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2403 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:17:03 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:17:03 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:17:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:17:03 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:17:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:17:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:17:04 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:17:04 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:17:04 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:17:04 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:17:04 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:17:04 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:17:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:17:04 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:17:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:17:04 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:17:04 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:17:05 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 22:17:05 [main] INFO  com.makey.telegram.App - Started App in 3.107 seconds (JVM running for 3.601)
+2021-07-26 22:44:19 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 22:44:19 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:44:19 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:44:19 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:44:26 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2589 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:44:26 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:44:26 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:44:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:44:26 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:44:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:44:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:44:27 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:44:27 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:44:27 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:44:27 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:44:27 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:44:27 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:44:27 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:44:27 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:44:27 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:44:28 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:44:28 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:44:28 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'requset.domain.uri' in value "${requset.domain.uri}"
+2021-07-26 22:44:28 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:44:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:44:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:44:28 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:44:28 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'requset.domain.uri' in value "${requset.domain.uri}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'requset.domain.uri' in value "${requset.domain.uri}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 28 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker': Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 307
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-07-26 22:45:00 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2671 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:45:00 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:45:00 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:45:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:45:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:45:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:45:01 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:45:01 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:45:01 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:45:01 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:45:01 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:45:01 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:45:01 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:45:01 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:45:01 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:45:01 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:45:02 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:45:02 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:45:02 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+2021-07-26 22:45:02 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:45:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:45:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:45:02 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:45:02 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1273)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1234)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerPostProcessor.postProcessAfterInitialization(DataSourceInitializerPostProcessor.java:51)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:437)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
-	... 38 common frames omitted
-Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #4 of class path resource [initDB.sql]: CREATE TABLE IF NOT EXISTS "messages" ( msg_id bigserial NOT NULL, msg_text text COLLATE pg_catalog."default", msg_date date, user_id bigint, chat_id bigint, CONSTRAINT "Messages_pkey" PRIMARY KEY (msg_id), CONSTRAINT messages_users_fk FOREIGN KEY (user_id) REFERENCES public."users" (user_id) MATCH SIMPLE; nested exception is org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 307
-	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
-	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
-	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.runScripts(DataSourceInitializer.java:202)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer.createSchema(DataSourceInitializer.java:101)
-	at org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker.afterPropertiesSet(DataSourceInitializerInvoker.java:63)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
-	... 53 common frames omitted
-Caused by: org.postgresql.util.PSQLException: ОШИБКА: ошибка синтаксиса в конце
-  Позиция: 307
-	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2510)
-	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2245)
-	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:311)
-	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:447)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:368)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:309)
-	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:295)
-	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:272)
-	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:267)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
-	... 60 common frames omitted
-2021-07-23 00:13:09 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 5151 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
-2021-07-23 00:13:09 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
-2021-07-23 00:13:09 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
-2021-07-23 00:13:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-07-23 00:13:09 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
-2021-07-23 00:13:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-07-23 00:13:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-07-23 00:13:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-07-23 00:13:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-07-23 00:13:09 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-07-23 00:13:10 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
-2021-07-23 00:13:10 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-07-23 00:13:10 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-07-23 00:13:11 [main] INFO  com.makey.telegram.App - Started App in 2.549 seconds (JVM running for 3.091)
-2021-07-23 00:13:15 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303419
-2021-07-23 00:13:16 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:13:18 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303420
-2021-07-23 00:13:18 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303421
-2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303422
-2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303423
-2021-07-23 00:13:19 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:13:20 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303424
-2021-07-23 00:13:20 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:13:20 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303425
-2021-07-23 00:13:20 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:13:21 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303426
-2021-07-23 00:13:21 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
-2021-07-23 00:13:55 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-07-23 00:13:55 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-07-23 00:13:55 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-07-26 22:45:16 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2756 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:45:16 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:45:16 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:45:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:45:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:45:17 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:45:17 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:45:17 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:45:17 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:45:18 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:45:18 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:45:18 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:45:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:45:18 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:45:18 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:45:18 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:45:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:45:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:45:19 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+2021-07-26 22:45:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:45:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:45:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:45:19 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:45:19 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-07-26 22:45:40 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2836 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:45:40 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:45:40 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:45:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:45:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:45:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:45:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:45:41 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:45:41 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:45:41 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:45:41 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:45:41 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:45:41 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:45:41 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:45:41 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:45:41 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:45:42 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:45:42 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:45:42 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+2021-07-26 22:45:42 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:45:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:45:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:45:42 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:45:42 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'request.domain.uri' in value "${request.domain.uri}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-07-26 22:47:11 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 2936 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:47:11 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:47:11 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:47:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:47:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:47:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:47:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:47:12 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:47:12 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:47:12 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:47:12 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:47:12 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:47:12 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:47:12 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:47:12 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:47:12 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:47:13 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:47:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:47:13 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+2021-07-26 22:47:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:47:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:47:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:47:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:47:13 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-07-26 22:48:06 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3012 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:48:06 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:48:06 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:48:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:48:07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:48:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:48:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:48:07 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:48:07 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:48:08 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:48:08 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:48:08 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:48:08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:48:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:48:08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:48:08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:48:08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:48:08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:48:09 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+2021-07-26 22:48:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:48:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:48:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:48:09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:48:09 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-07-26 22:48:16 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3094 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:48:16 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:48:16 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:48:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:48:16 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:48:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:48:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:48:17 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:48:17 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:48:17 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:48:17 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:48:17 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:48:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:48:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:48:17 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:48:17 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:48:17 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:48:17 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:48:18 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+2021-07-26 22:48:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:48:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:48:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:48:18 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:48:18 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-07-26 22:48:43 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3179 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:48:43 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:48:43 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:48:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:48:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:48:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:48:44 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:48:44 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:48:44 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:48:45 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:48:45 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:48:45 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:48:45 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:48:45 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:48:45 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:48:45 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:48:45 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:48:45 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:48:46 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+2021-07-26 22:48:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:48:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:48:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:48:46 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-26 22:48:46 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bot': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at com.makey.telegram.App.main(App.java:11)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'domain.uri' in value "${domain.uri}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+2021-07-26 22:49:33 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3264 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:49:33 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:49:33 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:49:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:49:33 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:49:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:49:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:49:34 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:49:34 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:49:34 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:49:34 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:49:34 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:49:34 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:49:34 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:49:34 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:49:34 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:49:35 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:49:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:49:35 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 22:49:35 [main] INFO  com.makey.telegram.App - Started App in 3.04 seconds (JVM running for 3.531)
+2021-07-26 22:49:42 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 22:49:42 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:49:42 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:49:42 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:49:59 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3367 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:49:59 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:49:59 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:50:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:50:00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:50:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:50:00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:50:00 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:50:00 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:50:00 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:50:00 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:50:00 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:50:00 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:50:01 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:50:01 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:50:01 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:50:01 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:50:01 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:50:02 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 22:50:03 [main] INFO  com.makey.telegram.App - Started App in 3.973 seconds (JVM running for 4.556)
+2021-07-26 22:50:07 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303452
+2021-07-26 22:50:07 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:50:21 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:50:30 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:50:39 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:50:54 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:51:03 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:51:07 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303453
+2021-07-26 22:51:07 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303454
+2021-07-26 22:51:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303455
+2021-07-26 22:51:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303456
+2021-07-26 22:51:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:10 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303457
+2021-07-26 22:51:10 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:11 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:51:12 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:51:21 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:51:21 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:51:30 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:51:30 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:51:30 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303458
+2021-07-26 22:51:31 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:31 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303459
+2021-07-26 22:51:31 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:32 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303460
+2021-07-26 22:51:32 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:32 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303461
+2021-07-26 22:51:32 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303462
+2021-07-26 22:51:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303463
+2021-07-26 22:51:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303464
+2021-07-26 22:51:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303465
+2021-07-26 22:51:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 22:51:38 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 22:51:38 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:51:38 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:51:38 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 22:53:38 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3507 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 22:53:38 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 22:53:38 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 22:53:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 22:53:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2021-07-26 22:53:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 22:53:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 22:53:39 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 22:53:39 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 22:53:39 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 22:53:40 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 22:53:40 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 22:53:40 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 22:53:40 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 22:53:40 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 22:53:40 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 22:53:40 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 22:53:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:53:41 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 22:53:41 [main] INFO  com.makey.telegram.App - Started App in 3.165 seconds (JVM running for 3.718)
+2021-07-26 22:53:54 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:53:54 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 22:53:55 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 22:53:55 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 22:53:55 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 22:53:55 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 23:02:17 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3629 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 23:02:17 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 23:02:17 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 23:02:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 23:02:18 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+2021-07-26 23:02:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 23:02:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 23:02:18 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 23:02:18 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 23:02:18 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 23:02:18 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 23:02:18 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 23:02:18 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 23:02:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 23:02:19 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 23:02:19 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 23:02:19 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 23:02:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:02:20 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 23:02:20 [main] INFO  com.makey.telegram.App - Started App in 3.325 seconds (JVM running for 3.829)
+2021-07-26 23:02:27 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303466
+2021-07-26 23:02:27 [MakeyBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+org.hibernate.LazyInitializationException: could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:170)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:310)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.makey.telegram.models.User$HibernateProxy$m7Ot5jIo.setLastmsg_date(Unknown Source)
+	at com.makey.telegram.Bot.onUpdateReceived(Bot.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-07-26 23:02:38 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 23:02:38 [scheduling-1] INFO  com.makey.telegram.Bot - Сообщение о сборе доменов отправлено
+2021-07-26 23:02:40 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 23:02:40 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:02:40 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 23:02:40 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 23:03:01 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3751 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 23:03:01 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 23:03:01 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 23:03:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 23:03:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 3 JPA repository interfaces.
+2021-07-26 23:03:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 23:03:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 23:03:02 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 23:03:02 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 23:03:02 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 23:03:02 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 23:03:03 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 23:03:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 23:03:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 23:03:03 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 23:03:03 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 23:03:03 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 23:03:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:03:04 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 23:03:04 [main] INFO  com.makey.telegram.App - Started App in 3.29 seconds (JVM running for 3.799)
+2021-07-26 23:03:08 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303467
+2021-07-26 23:03:08 [MakeyBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+org.hibernate.LazyInitializationException: could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:170)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:310)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.makey.telegram.models.User$HibernateProxy$zVhplvgL.setLastmsg_date(Unknown Source)
+	at com.makey.telegram.Bot.onUpdateReceived(Bot.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-07-26 23:03:23 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303468
+2021-07-26 23:03:24 [MakeyBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+org.hibernate.LazyInitializationException: could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:170)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:310)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.makey.telegram.models.User$HibernateProxy$zVhplvgL.setLastmsg_date(Unknown Source)
+	at com.makey.telegram.Bot.onUpdateReceived(Bot.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-07-26 23:06:53 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 23:06:53 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:06:53 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 23:06:53 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 23:06:58 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3879 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 23:06:58 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 23:06:58 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 23:06:58 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 23:06:58 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2021-07-26 23:06:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 23:06:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 23:06:59 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 23:06:59 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 23:06:59 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 23:06:59 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 23:06:59 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 23:06:59 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 23:06:59 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 23:06:59 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 23:06:59 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 23:07:00 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 23:07:00 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:07:00 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 23:07:01 [main] INFO  com.makey.telegram.App - Started App in 3.042 seconds (JVM running for 3.596)
+2021-07-26 23:07:04 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303469
+2021-07-26 23:07:04 [MakeyBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+org.hibernate.LazyInitializationException: could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:170)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:310)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.makey.telegram.models.User$HibernateProxy$hxGDVi9s.setLastmsg_date(Unknown Source)
+	at com.makey.telegram.Bot.onUpdateReceived(Bot.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-07-26 23:07:35 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 23:07:35 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:07:35 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 23:07:35 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 23:07:42 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 3985 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 23:07:42 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 23:07:42 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 23:07:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 23:07:43 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+2021-07-26 23:07:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 23:07:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 23:07:43 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 23:07:43 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 23:07:44 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 23:07:44 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 23:07:44 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 23:07:44 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 23:07:44 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 23:07:44 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 23:07:44 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 23:07:44 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 23:07:44 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:07:45 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 23:07:46 [main] INFO  com.makey.telegram.App - Started App in 3.611 seconds (JVM running for 5.257)
+2021-07-26 23:07:49 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303470
+2021-07-26 23:08:50 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s273ms194µs592ns).
+2021-07-26 23:09:00 [MakeyBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+org.hibernate.LazyInitializationException: could not initialize proxy [com.makey.telegram.models.User#1256822757] - no Session
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:170)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:310)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:45)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:95)
+	at com.makey.telegram.models.User$HibernateProxy$mAgNsDxB.setLastmsg_date(Unknown Source)
+	at com.makey.telegram.Bot.onUpdateReceived(Bot.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+2021-07-26 23:09:02 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 23:09:02 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:09:02 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 23:09:02 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-07-26 23:10:19 [main] INFO  com.makey.telegram.App - Starting App using Java 11.0.11 on makey with PID 4198 (/home/makey/TelegramBot/target/classes started by makey in /home/makey/TelegramBot)
+2021-07-26 23:10:19 [main] DEBUG com.makey.telegram.App - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-07-26 23:10:19 [main] INFO  com.makey.telegram.App - No active profile set, falling back to default profiles: default
+2021-07-26 23:10:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 23:10:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2021-07-26 23:10:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-07-26 23:10:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-07-26 23:10:20 [main] INFO  liquibase.database - Set default schema name to public
+2021-07-26 23:10:20 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2021-07-26 23:10:21 [main] INFO  liquibase.changelog - Reading resource: changelog/migrations/initDB.sql
+2021-07-26 23:10:21 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2021-07-26 23:10:21 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2021-07-26 23:10:21 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 23:10:21 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 23:10:21 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 23:10:21 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2021-07-26 23:10:21 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 23:10:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:10:22 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2021-07-26 23:10:22 [main] INFO  com.makey.telegram.App - Started App in 3.101 seconds (JVM running for 3.629)
+2021-07-26 23:10:25 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303471
+2021-07-26 23:10:25 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 23:10:29 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303472
+2021-07-26 23:10:29 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 23:10:30 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303473
+2021-07-26 23:10:30 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 23:10:31 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303474
+2021-07-26 23:10:32 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 23:10:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303475
+2021-07-26 23:10:33 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 23:10:39 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303476
+2021-07-26 23:10:39 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 23:10:46 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303477
+2021-07-26 23:10:46 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 23:11:02 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - UPDATE RECEIVED id=51303478
+2021-07-26 23:11:02 [MakeyBot Telegram Executor] INFO  com.makey.telegram.Bot - Сообщение отправлено
+2021-07-26 23:11:17 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2021-07-26 23:11:17 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 23:11:17 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-07-26 23:11:17 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

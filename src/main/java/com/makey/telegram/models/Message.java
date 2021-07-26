@@ -15,7 +15,7 @@ public class Message {
 
     @Id
     @Column(name ="msg_id")
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "msg_text")

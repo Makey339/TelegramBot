@@ -4,9 +4,10 @@ package com.makey.telegram.models;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
-import java.sql.Timestamp;
-import java.time.LocalDateTime;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
@@ -17,7 +18,7 @@ public class User {
 
     @Id
     @Column(name = "user_id")
-    private long id;
+    private Long id;
 
     @Column(name = "first_name")
     private String first_name;
